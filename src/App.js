@@ -8,8 +8,8 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 
 import {PageHeader} from 'react-bootstrap';
-import Home from './screens/Home';
-import Login from './screens/Login';
+import AppRouter from './screens/AppRouter';
+
 
 
 library.add(faMale);
@@ -41,7 +41,7 @@ class App extends Component {
     <PageHeader>
       <Header></Header>
     </PageHeader>
-    <Login></Login>
+    <AppRouter></AppRouter>
     <Footer></Footer>
       
       
