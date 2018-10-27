@@ -10,8 +10,8 @@ export default class Menu extends Component{
         return(
               
                   <Nav onSelect={this.handleSelect} >
-                    <NavItem eventKey={1} href="#">Acceuil</NavItem>
-                    <NavItem eventKey={2} href="#">Catalogue</NavItem>
+                    <NavItem class="navitem" eventKey={1} href="#">Acceuil</NavItem>
+                    <NavItem class="navitem" eventKey={2} href="#">Catalogue</NavItem>
                 </Nav>
                 
                
