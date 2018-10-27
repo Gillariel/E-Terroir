@@ -6,6 +6,7 @@ import { faFacebookF, faTwitter} from '@fortawesome/free-brands-svg-icons';
 import { faShoppingCart} from '@fortawesome/free-solid-svg-icons';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Catalogue from './screens/Catalogue';
 
 import {PageHeader} from 'react-bootstrap';
 import AppRouter from './screens/AppRouter';
@@ -25,7 +26,7 @@ class App extends Component {
     return (
         <div className="App">
             <Header/>
-            <AppRouter/>
+           <Catalogue/>
             <Footer/>
         </div>
     );
