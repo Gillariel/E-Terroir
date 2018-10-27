@@ -10,9 +10,9 @@
     "i": "^0.3.6",
     "npm": "^6.4.1",
     "react": "^16.6.0",
+    "react-bootstrap": "^0.32.4",
     "react-dom": "^16.6.0",
-    "react-scripts": "2.0.5",
-    "reactstrap": "^6.5.0"
+    "react-scripts": "2.0.5"
   },
   "scripts": {
     "start": "react-scripts start",
