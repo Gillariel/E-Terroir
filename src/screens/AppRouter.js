@@ -4,6 +4,7 @@ import Home from './Home';
 import Login from './Login';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {Grid,Row,Col, Nav} from 'react-bootstrap';
+import Catalogue from "./Catalogue";
 
 
 
@@ -22,7 +23,7 @@ const AppRouter = () => {
             </Row>
             <Nav /*onSelect={this.handleSelect}*/ >
                 <NavLink exact to='/' class="navitem" eventKey={1}>Acceuil</NavLink>
-                <a class="navitem" eventKey={2} href="#">Catalogue</a>
+                <NavLink to="/catalogue" class="navitem" eventKey={2}>Catalogue</NavLink>
             </Nav>
 
            
@@ -30,6 +31,7 @@ const AppRouter = () => {
   <Switch>
       <Route exact path='/' component={Home} />
       <Route path='/login' component={Login} />
+      <Route path='/catalogue' component={Catalogue} />
       
     </Switch>
 </div>
