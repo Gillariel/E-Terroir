@@ -6,6 +6,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMale } from '@fortawesome/free-solid-svg-icons'
 import { faShoppingCart} from '@fortawesome/free-solid-svg-icons'
 import Header from './components/Header';
+import Menu from './components/Menu';
+import {PageHeader} from 'react-bootstrap';
+
 
 library.add(faMale)
 library.add(faShoppingCart)
@@ -31,7 +34,11 @@ class App extends Component {
             Learn React
           </a>
     </header>*/}
+    <PageHeader>
       <Header></Header>
+    </PageHeader>
+      
+      <Menu></Menu>
       </div>
     );
   }
