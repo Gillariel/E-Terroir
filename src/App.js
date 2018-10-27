@@ -4,7 +4,6 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { faMale } from '@fortawesome/free-solid-svg-icons';
 import { faFacebookF, faTwitter} from '@fortawesome/free-brands-svg-icons';
 import { faShoppingCart} from '@fortawesome/free-solid-svg-icons';
-import Header from './components/Header';
 import Footer from './components/Footer';
 
 import {PageHeader} from 'react-bootstrap';
@@ -38,9 +37,7 @@ class App extends Component {
             Learn React
           </a>
     </header>*/}
-    <PageHeader>
-      <Header></Header>
-    </PageHeader>
+    
     <AppRouter></AppRouter>
     <Footer></Footer>
       

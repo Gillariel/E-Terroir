@@ -26,6 +26,7 @@ export default class Login extends Component{
       handleSubmit = event => {
         event.preventDefault();
       }
+
     render(){
         return(
             <div className="Login">
@@ -45,8 +46,12 @@ export default class Login extends Component{
                 value={this.state.password}
                 onChange={this.handleChange}
                 type="password"
+                data-toggle="password"
                 />
             </FormGroup>
+            <div>
+              
+            </div>
             <Button
                 block
                 bsSize="large"
