@@ -1,3 +1,20 @@
+.navbar-brand>img {
+  height: 120px;
+  padding: 15px;
+  width: auto;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+
+.navbar {
+    padding: 0 0 !important;
+    min-height: 80px;
+    max-height: 80px;
+}
+
+/*
 .App {
   text-align: center;
 }
@@ -30,3 +47,4 @@
     transform: rotate(360deg);
   }
 }
+*/
