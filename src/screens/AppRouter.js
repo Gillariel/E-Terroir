@@ -17,35 +17,11 @@ const AppRouter = () => {
         <Switch>
             <Route exact path='/' component={Home} />
             <Route path='/login' component={Login} />
-            <Route path='/catalogue' component={Catalogue} />
-        </Switch>
-        
-</BrowserRouter>
-               
-            </Nav>
-
-           
-            </Grid>
-  <Switch>
-      <Route exact path='/' component={Home} />
-      <Route path='/login' component={Login} />
-      
-      
-    </Switch>
-</div>
- 
-
-</BrowserRouter>
-
-
-        <Switch>
-            <Route exact path='/' component={Home} />
-            <Route path='/login' component={Login} />
-            <Route path='/catalogue' component={Catalogue} />
+            <Route path='/catalogue' component={Catalogue}/>
         </Switch>
         
     </BrowserRouter>
-  );
+);
 
 
 }
