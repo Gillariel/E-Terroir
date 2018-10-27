@@ -24,12 +24,9 @@ class App extends Component {
 
     return (
         <div className="App">
-        <Header/>
-
-        <AppRouter></AppRouter>
-        <Footer></Footer>
-
-
+            <Header/>
+            <AppRouter/>
+            <Footer/>
         </div>
     );
   }
